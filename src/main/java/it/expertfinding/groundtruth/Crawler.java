@@ -50,7 +50,7 @@ public class Crawler {
          OutputStreamWriter writer = new OutputStreamWriter(connection.getOutputStream());
 
          // write parameters
-         writer.write("user=expertfinding&pw=dwr56yuri8");
+         writer.write("user=***&pw=***");
          writer.flush();
          // Get Response
          InputStream is = connection.getInputStream();
