@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/seco/!svn/ver/3222/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/core
+END
+QueryProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/seco/!svn/ver/3222/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/core/QueryProcessor.java
+END
+SolrManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/seco/!svn/ver/3222/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/core/SolrManager.java
+END
+ResourceAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/seco/!svn/ver/3111/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/core/ResourceAnalyzer.java
+END
+CandidateSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/core/CandidateSelector.java
+END

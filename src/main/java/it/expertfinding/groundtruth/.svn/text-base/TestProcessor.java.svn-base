@@ -1,0 +1,54 @@
+/*
+ * @(#)TestProcessor.java   1.0   24/giu/2012
+ *
+ * Copyright 2012-2012 Politecnico di Milano. All Rights Reserved.
+ *
+ * This software is the proprietary information of Politecnico di Milano.
+ * Use is subject to license terms.
+ *
+ * @(#) $Id$
+ */
+package it.expertfinding.groundtruth;
+
+import it.expertfinding.datamodel.Constants.Channel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestProcessor {
+
+   private static String[] methods = {"textual", "probabilistic"};
+   private static String[] lan = {"en", "it"};
+   private static String[] entityType = {"yes"};//, "no", "entityOnly"};
+   private static String[] relevantsMethods = {"avg", "avg+dev"};
+   private static String[] retrievedResources = {"50", "10%"};
+   private static String[] resourceLevels = {"text"};//, "textShort", "profiles"};
+   private static List<Channel> cs = new ArrayList<Channel>();
+   private static final String baseFilePath = "C:\\Users\\Giuliano\\Dropbox\\Crowdsearch-Vesci-Silvestri-Thesis\\finalTests\\";
+
+   public static void main(String[] args){
+      
+      nineTextualConfigurationsEnTest();
+   }
+   
+   private static void nineTextualConfigurationsEnTest(){
+      
+      String method = methods[0];
+      String language = lan[0];
+      String retrievedR = retrievedResources[0];
+      String relevantMethod = relevantsMethods[0];
+      
+      StringBuilder fileName = new StringBuilder(baseFilePath);
+      
+      fileName.append("NineTextualConfigurations\\");
+      for(String entity : entityType){
+         fileName.append("Entity_"+entity);
+         for(String resourceLevel: resourceLevels){
+            fileName.append("ResourceLevel_").append(resourceLevel).append(".xls");
+            new PrecisionRecallExcelCalculator(method, language, cs,
+                  entity, resourceLevel, retrievedR,
+                  relevantMethod, fileName.toString());
+         }
+      }
+   }
+}

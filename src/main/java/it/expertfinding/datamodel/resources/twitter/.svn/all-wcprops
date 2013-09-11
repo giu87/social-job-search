@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/seco/!svn/ver/3111/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/twitter
+END
+TwitterPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/seco/!svn/ver/3083/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/twitter/TwitterPage.java
+END
+Tweet.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/seco/!svn/ver/3083/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/twitter/Tweet.java
+END
+TwitterObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/twitter/TwitterObject.java
+END
+TwitterUserHighlight.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/twitter/TwitterUserHighlight.java
+END
+TwitterResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/seco/!svn/ver/3111/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/twitter/TwitterResource.java
+END

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy
+END
+AlchemyLimitException.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyLimitException.java
+END
+CategorizationResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/CategorizationResponse.java
+END
+AlchemyResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyResponse.java
+END
+AlchemyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyException.java
+END
+KeywordResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/KeywordResponse.java
+END
+AlchemyJsonMappingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyJsonMappingException.java
+END
+ConceptResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/ConceptResponse.java
+END
+AlchemyAPI_ConstraintQueryParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_ConstraintQueryParams.java
+END
+AlchemyAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI.java
+END
+AlchemyAPI_CategoryParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_CategoryParams.java
+END
+AlchemyAPI_RelationParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_RelationParams.java
+END
+AlchemyAPI_Params.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_Params.java
+END
+AlchemyConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyConstants.java
+END
+AlchemyAPI_NamedEntityParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_NamedEntityParams.java
+END
+AlchemyJsonMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyJsonMapper.java
+END
+Alchemy.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/Alchemy.java
+END
+AlchemyAPI_LanguageParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_LanguageParams.java
+END
+AlchemyAPI_TextParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_TextParams.java
+END
+AlchemyAPI_KeywordParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_KeywordParams.java
+END
+AlchemyAPI_TargetedSentimentParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_TargetedSentimentParams.java
+END
+AlchemyAPI_ConceptParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/AlchemyAPI_ConceptParams.java
+END
+EntityResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/alchemy/EntityResponse.java
+END

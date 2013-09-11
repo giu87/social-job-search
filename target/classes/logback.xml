@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+	<property resource="conf.properties" />
+
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="DEBUG_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.path}/${debug.name}.log</file>
+		<append>true</append>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>DEBUG</level>
+		</filter>
+
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${log.path}/${debug.name}-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>3MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{HH:mm:ss} %-5level %-30([%file:%line]) - %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="SOLR_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.path}/${log.solr}.log</file>
+		<append>true</append>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>DEBUG</level>
+		</filter>
+
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${log.path}/${log.solr}-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>3MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{HH:mm:ss} %-5level %-30([%file:%line]) - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="SKILLS_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.path}/${log.skills}.log</file>
+		<append>true</append>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>DEBUG</level>
+		</filter>
+
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${log.path}/${log.skills}-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>3MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{HH:mm:ss} %-5level %-30([%file:%line]) - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<file>${log.path}/${log.name}.log</file>
+		<append>true</append>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>INFO</level>
+		</filter>
+		<encoder>
+			<pattern>%date{yyyy-MM-dd HH:mm:ss} %-5level %-30([%file:%line]) - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<logger name="Expertfinding" level="${log.level}">
+		<appender-ref ref="DEBUG_FILE" />
+		<appender-ref ref="FILE" />
+	</logger>
+	<logger name="Solr" level="${log.level}">
+		<appender-ref ref="SOLR_FILE" />
+		<appender-ref ref="FILE" />
+	</logger>
+	<logger name="Skills" level="${log.level}">
+		<appender-ref ref="SKILLS_FILE" />
+		<appender-ref ref="FILE" />
+	</logger>
+	
+
+	<root level="OFF">
+		<appender-ref ref="STDOUT" />
+	</root>
+
+</configuration>

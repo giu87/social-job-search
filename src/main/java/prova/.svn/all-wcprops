@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/seco/!svn/ver/3222/seco-crowd/trunk/social-search/src/main/java/prova
+END
+Crawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/seco/!svn/ver/3165/seco-crowd/trunk/social-search/src/main/java/prova/Crawler.java
+END
+EntitiesStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/seco/!svn/ver/3165/seco-crowd/trunk/social-search/src/main/java/prova/EntitiesStatistics.java
+END
+Skills.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/seco/!svn/ver/3071/seco-crowd/trunk/social-search/src/main/java/prova/Skills.java
+END
+Tests.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/seco/!svn/ver/3145/seco-crowd/trunk/social-search/src/main/java/prova/Tests.java
+END
+ItGroundtruth.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/seco/!svn/ver/3221/seco-crowd/trunk/social-search/src/main/java/prova/ItGroundtruth.java
+END
+ExpertiseMatrixBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/seco/!svn/ver/3165/seco-crowd/trunk/social-search/src/main/java/prova/ExpertiseMatrixBuilder.java
+END
+CategoryStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/seco/!svn/ver/2997/seco-crowd/trunk/social-search/src/main/java/prova/CategoryStatistics.java
+END
+ResourceDomainProbabilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/seco/!svn/ver/3145/seco-crowd/trunk/social-search/src/main/java/prova/ResourceDomainProbabilities.java
+END
+ResourceToBeAnalyzed.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/seco/!svn/ver/3165/seco-crowd/trunk/social-search/src/main/java/prova/ResourceToBeAnalyzed.java
+END
+CrawlerDomains.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/seco/!svn/ver/3145/seco-crowd/trunk/social-search/src/main/java/prova/CrawlerDomains.java
+END
+AggiustatoreUserBased.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/seco/!svn/ver/3222/seco-crowd/trunk/social-search/src/main/java/prova/AggiustatoreUserBased.java
+END
+ProvaClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/prova/ProvaClass.java
+END
+Aggiustatore.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/seco/!svn/ver/3221/seco-crowd/trunk/social-search/src/main/java/prova/Aggiustatore.java
+END

@@ -1,0 +1,76 @@
+/*
+ * @(#)ProvaClass.java   1.0   04/mag/2012
+ *
+ * Copyright 2012-2012 Politecnico di Milano. All Rights Reserved.
+ *
+ * This software is the proprietary information of Politecnico di Milano.
+ * Use is subject to license terms.
+ *
+ * @(#) $Id$
+ */
+package prova;
+
+import it.expertfinding.datamodel.Constants.ResourceUserConnection;
+import it.expertfinding.datamodel.resources.linkedin.LinkedinGroupPost;
+import it.expertfinding.datamodel.users.linkedin.LinkedinUser;
+import it.expertfinding.utils.Facade;
+import it.expertfinding.utils.MongoUtils;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import com.mongodb.BasicDBObject;
+
+import net.karmafiles.ff.core.tool.dbutil.converter.Converter;
+
+import org.apache.commons.configuration.Configuration;
+
+public class ProvaClass {
+
+   protected static Configuration conf = Facade.conf;
+
+   public static void main(String[] args) {
+
+      getUserByResource();
+      // ProvaClass p = new ProvaClass();
+      // p.prova();
+   }
+
+   public static Set<String> getMax(List<String> topics) {
+
+      Map<String, Integer> wordCount = new HashMap<String, Integer>();
+
+      for (String topic : topics) {
+         Integer count = wordCount.get(topic);
+         wordCount.put(topic, (count == null) ? 1 : count + 1);
+      }
+
+      int max = Collections.max(wordCount.values());
+      Set<String> maxs = new HashSet<String>();
+
+      for (String topic : topics)
+         if (wordCount.get(topic) == max)
+            maxs.add(topic);
+
+      return maxs;
+   }
+
+   public static void getUserByResource() {
+
+      LinkedinGroupPost u = Converter.toObject(
+            LinkedinGroupPost.class,
+            Facade.db.getCollection("linkedin").findOne(
+                  new BasicDBObject("_id", "g-4184558-S-81442872")));
+      System.out.println(u.getTitle());
+      Map<LinkedinUser, List<ResourceUserConnection>> users = MongoUtils
+            .getLinkedinUsersByResource(u);
+
+      for (LinkedinUser user : users.keySet())
+         for (ResourceUserConnection connection : users.get(user))
+            System.out.println(user.getFirstName() + " with a score:" + connection);
+   }
+}

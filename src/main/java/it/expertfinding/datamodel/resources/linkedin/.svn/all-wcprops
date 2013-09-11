@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/seco/!svn/ver/3133/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin
+END
+LinkedinNamedCodeField.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinNamedCodeField.java
+END
+LinkedinLike.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinLike.java
+END
+JobBookmarkField.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/JobBookmarkField.java
+END
+LinkedinUpdateComments.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinUpdateComments.java
+END
+LinkedinAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinAttachment.java
+END
+LinkedinIndustries.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/seco/!svn/ver/2984/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinIndustries.java
+END
+LinkedinLocations.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinLocations.java
+END
+LinkedinGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/seco/!svn/ver/3111/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinGroup.java
+END
+LinkedinCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinCreator.java
+END
+LinkedinShare.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/seco/!svn/ver/2984/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinShare.java
+END
+LinkedinEmailDomains.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinEmailDomains.java
+END
+LinkedinGroupPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/seco/!svn/ver/3071/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinGroupPost.java
+END
+LinkedinSpecialties.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinSpecialties.java
+END
+LinkedinCompany.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/seco/!svn/ver/3083/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinCompany.java
+END
+LinkedinLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinLocation.java
+END
+LinkedinJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/seco/!svn/ver/3083/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinJob.java
+END
+LinkedinCodeField.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinCodeField.java
+END
+LinkedinUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/seco/!svn/ver/3083/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinUpdate.java
+END
+LinkedinCreators.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinCreators.java
+END
+LinkedinObjectsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinObjectsList.java
+END
+LinkedinComments.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinComments.java
+END
+LinkedinResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/3133/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinResource.java
+END
+LinkedinNamedField.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinNamedField.java
+END
+LinkedinUserInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinUserInfo.java
+END
+LinkedinUsersList.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinUsersList.java
+END
+LinkedinComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinComment.java
+END
+LinkedinJobFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinJobFunctions.java
+END
+LinkedinUpdateComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinUpdateComment.java
+END
+LinkedinNamedCodeObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinNamedCodeObject.java
+END
+LinkedinLikes.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinLikes.java
+END
+LinkedinNamedObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/linkedin/LinkedinNamedObject.java
+END

@@ -1,0 +1,65 @@
+/*
+ * @(#)ShowResults.java   1.0   11/mag/2012
+ *
+ * Copyright 2012-2012 Politecnico di Milano. All Rights Reserved.
+ *
+ * This software is the proprietary information of Politecnico di Milano.
+ * Use is subject to license terms.
+ *
+ * @(#) $Id$
+ */
+package it.expertfinding.servlets;
+
+import it.expertfinding.datamodel.users.linkedin.LinkedinUser;
+import it.expertfinding.utils.Facade;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+
+import net.karmafiles.ff.core.tool.dbutil.converter.Converter;
+
+@WebServlet(name = "ShowResults", urlPatterns = "/ShowResults")
+public class ShowResults extends HttpServlet {
+
+   private static final long serialVersionUID = 1L;
+
+   @Override
+   protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+         throws ServletException, IOException {
+
+      String query = (String) req.getAttribute("query");
+      System.out.println(query);
+
+      Map<LinkedinUser, Double> users = processQuery(query);
+      req.setAttribute("list", users);
+
+      this.getServletContext().getRequestDispatcher("/showResults.jsp").forward(req, resp);
+   }
+
+   @Override
+   protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+         throws ServletException, IOException {
+      doPost(req, resp);
+   }
+
+   private Map<LinkedinUser, Double> processQuery(String query) {
+
+      DBCollection luColl = Facade.db.getCollection(Facade.TABLE_LINKEDIN_USER);
+      DBCursor c = luColl.find(new BasicDBObject("firstName", "Alessandro"));
+      Map<LinkedinUser, Double> map = new HashMap<LinkedinUser, Double>();
+      while (c.hasNext())
+         map.put(Converter.toObject(LinkedinUser.class, c.next()), 1D);
+      return map;
+   }
+}

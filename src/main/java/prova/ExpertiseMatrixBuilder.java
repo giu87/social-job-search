@@ -1,0 +1,143 @@
+/*
+ * @(#)ExpertiseMatrixBuilder.java   1.0   06/giu/2012
+ *
+ * Copyright 2012-2012 Politecnico di Milano. All Rights Reserved.
+ *
+ * This software is the proprietary information of Politecnico di Milano.
+ * Use is subject to license terms.
+ *
+ * @(#) $Id$
+ */
+package prova;
+
+import it.expertfinding.core.SolrManager;
+import it.expertfinding.datamodel.Constants;
+import it.expertfinding.datamodel.Constants.ResourceUserConnection;
+import it.expertfinding.datamodel.resources.AbstractResource;
+import it.expertfinding.datamodel.users.CrowdUser;
+import it.expertfinding.utils.Facade;
+import it.expertfinding.utils.MongoUtils;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.Bytes;
+import com.mongodb.DB;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+
+import net.karmafiles.ff.core.tool.dbutil.converter.Converter;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.common.SolrInputDocument;
+
+public class ExpertiseMatrixBuilder {
+
+   public static void main(String[] args) {
+
+      Map<String, Map<String, Double>> users = new HashMap<String, Map<String, Double>>();
+      Map<String, Double> userDen = new HashMap<String, Double>();
+
+      DB db = Facade.db;
+      String[] array = { Facade.TABLE_FACEBOOK, Facade.TABLE_TWITTER, Facade.TABLE_LINKEDIN,
+            Facade.TABLE_FACEBOOK_USER, Facade.TABLE_LINKEDIN_USER,
+            Facade.TABLE_TWITTER_USER };
+      for (String table : array) {
+
+         DBCursor cursor = db
+               .getCollection(table)
+               .find(new BasicDBObject("domainProbabilities", new BasicDBObject("$ne", null)))
+               .addOption(Bytes.QUERYOPTION_NOTIMEOUT);
+         while (cursor.hasNext()) {
+
+            DBObject next = cursor.next();
+            AbstractResource r = Converter.toObject(
+                  MongoUtils.getClassByResourceType(Constants.RType.valueOf((String) next
+                        .get("rType"))), next);
+            Map<String, Double> domainProbabilities = (Map<String, Double>) next
+                  .get("domainProbabilities");
+            
+            if(!r.getResourceLang().equals("en")) continue;
+            
+            Map<CrowdUser, List<ResourceUserConnection>> userConnected = MongoUtils
+                  .getCrowdUsersByResource(r, "textShort");
+
+            for (Entry<CrowdUser, List<ResourceUserConnection>> user : userConnected
+                  .entrySet()) {
+
+               Double weight = Constants.getConnectionScore(user.getValue()).doubleValue();
+
+               for (Entry<String, Double> domain : domainProbabilities.entrySet()) {
+
+                  Double pDR = domain.getValue();
+                  if (users.containsKey(user.getKey().get_id().toString())) {
+
+                     Map<String, Double> u = users.get(user.getKey().get_id().toString());
+
+                     if (u.containsKey(domain.getKey())) {
+
+                        u.put(domain.getKey(), u.get(domain.getKey()) + weight * pDR);
+                     } else { // non avevamo ancora messo il dominio
+
+                        u.put(domain.getKey(), weight * pDR);
+                     }
+                     users.put(user.getKey().get_id().toString(), u);
+                  }
+
+                  else { // non c'era l'user
+
+                     Map<String, Double> u = new HashMap<String, Double>();
+                     u.put(domain.getKey(), pDR * weight);
+                     users.put(user.getKey().get_id().toString(), u);
+                  }
+               }
+               if (userDen.containsKey(user.getKey().get_id().toString())) {
+
+                  userDen.put(user.getKey().get_id().toString(),
+                        userDen.get(user.getKey().get_id().toString()) + weight);
+               } else
+                  userDen.put(user.getKey().get_id().toString(), weight);
+            }
+         }
+      }
+
+      Collection<SolrInputDocument> documents = new ArrayList<SolrInputDocument>();
+      for (Entry<String, Map<String, Double>> user : users.entrySet()) {
+
+         StringBuilder s = new StringBuilder();
+         for (Entry<String, Double> userDomain : user.getValue().entrySet()) {
+
+            if (userDomain.getValue() != 0D) {
+
+               Double result = userDomain.getValue() / userDen.get(user.getKey());
+               System.out.println("P( " + userDomain.getKey() + " | " + user.getKey()
+                     + ") = " + result);
+
+               s.append(userDomain.getKey()).append("|").append(result.floatValue())
+                     .append(" ");
+            }
+         }
+
+         String d = StringUtils.chop(s.toString());
+         SolrInputDocument doc = new SolrInputDocument();
+         doc.addField("id", user.getKey());
+         doc.addField("domains", d);
+         documents.add(doc);
+      }
+
+      try {
+         SolrManager.addUserDomains(documents);
+      } catch (SolrServerException e) {
+         e.printStackTrace();
+      } catch (IOException e) {
+         e.printStackTrace();
+      }
+   }
+}

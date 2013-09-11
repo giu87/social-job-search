@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/seco/!svn/ver/3222/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/servlets
+END
+CalculateResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/seco/!svn/ver/3222/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/servlets/CalculateResults.java
+END
+ShowResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/servlets/ShowResults.java
+END
+ContextListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/servlets/ContextListener.java
+END
+ResourceDetailAjax.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/seco/!svn/ver/3121/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/servlets/ResourceDetailAjax.java
+END

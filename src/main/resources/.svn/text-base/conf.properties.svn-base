@@ -1,0 +1,75 @@
+## GENERAL CONFIG ##
+# log #
+
+# ALL enables debugging
+# OFF disables debugging 
+log.level=ALL
+
+log.path=log
+debug.name=expertfinding_debug
+log.name=expertfinding
+log.solr=solr_debug
+log.skills=skills_debug
+
+# proxy #
+proxy.enabled=false
+proxy.port=8080
+proxy.host=proxycert.como.polimi.it
+
+
+## WEBSERVER CONFIG ##
+http.url=localhost:${http.port}
+http.port=80
+https.url=localhost:${https.port}
+https.port=8443
+
+
+## MONGO DB CONFIG ##
+mongo.url= localhost
+mongo.port= 27017
+mongo.dbName=expertFinding
+
+## SOLR CONFIG ##
+solr.url= http://localhost:80/solr/
+solr2.url= http://localhost:80/solr2/
+## TAGME SECTION ##
+
+tagme.url= http://tagme.di.unipi.it/api
+tagme.key= 98uyio66
+
+# LINK LOCATION #
+link.user=me
+link.post=posts
+link.feed=feed
+link.friend=friends
+link.comment=comments
+link.like=likes
+
+#LINKEDIN
+linkedin.API_KEY = 4zhl001vrqcn
+linkedin.API_SECRET = mKdF5SIyw9UUPudN
+
+
+# TWITTER #
+twitter.API_SECRET=Uv6l5lKa48cXoC3gubd6hMyiurTpepUY80pGpLsqQ
+twitter.API_KEY=gt9aDPnPT2RjdUvK5qLwRg
+twitter.feed = https://api.twitter.com/1/statuses/user_timeline.json
+twitter.user = https://api.twitter.com/1/users/show.json
+twitter.followers = https://api.twitter.com/1/followers/ids.json
+twitter.following = http://api.twitter.com/1/friends/ids.json
+twitter.pages = http://api.twitter.com/1/users/lookup.json
+twitter.favorites = https://api.twitter.com/1/favorites.json
+
+# ALCHEMYAPI #
+alchemy.key = 171ecd3103af96fa94e6e899188736c2fca6470f
+
+# OPEN CALAIS #
+calais.key = d7mhvmntw7gcmc2a3f8c789d
+
+# LANGUAGE DETECTION THRESHOLD #
+threshold = 0.1
+
+# ENTITIES WEIGHT
+entities.weight=2.0
+
+domains = american_football, amusement_parks, architecture, astronomy, automotive, aviation, award, baseball, basketball, bicycles, biology, boats, book, broadcast, business, celebrities, chemistry, comic_books, computer, conferences, cvg, dataworld, digicams, education, engineering, event, exhibitions, fashion, fictional_universe, film, food, games, geography, geology, government, ice_hockey, influence, interests, internet, language, law, library, location, martial_arts, measurement_unit, media_common, medicine, meteorology, military, music, olympics, opera, organization, people, periodicals, physics, projects, protected_sites, radio, rail, religion, royalty, skiing, soccer, spaceflight, sports, symbols, tennis, theater, time, transportation, travel, tv, visual_art, zoos

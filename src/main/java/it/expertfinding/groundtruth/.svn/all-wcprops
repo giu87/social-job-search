@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/seco/!svn/ver/3221/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth
+END
+Answer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/seco/!svn/ver/3133/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/Answer.java
+END
+Crawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/seco/!svn/ver/3134/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/Crawler.java
+END
+TestProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/seco/!svn/ver/3223/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/TestProcessor.java
+END
+PrecisionRecallExcelCalculatorDomains.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/seco/!svn/ver/3252/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/PrecisionRecallExcelCalculatorDomains.java
+END
+Groundtruth.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/seco/!svn/ver/3134/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/Groundtruth.java
+END
+QueryParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/seco/!svn/ver/3223/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/QueryParameter.java
+END
+PrecisionRecallCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/seco/!svn/ver/3194/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/PrecisionRecallCalculator.java
+END
+PrecisionRecallExcelCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/seco/!svn/ver/3223/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/PrecisionRecallExcelCalculator.java
+END
+PrecisionRecallExcelCalculator2.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/seco/!svn/ver/3204/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/PrecisionRecallExcelCalculator2.java
+END
+SaveAvgSigma.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/seco/!svn/ver/3223/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/groundtruth/SaveAvgSigma.java
+END

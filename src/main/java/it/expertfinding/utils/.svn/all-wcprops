@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/seco/!svn/ver/3221/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils
+END
+Crawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/seco/!svn/ver/3018/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/Crawler.java
+END
+MongoUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/seco/!svn/ver/3194/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/MongoUtils.java
+END
+Alchemy.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/Alchemy.java
+END
+Facade.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/seco/!svn/ver/3221/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/Facade.java
+END
+URLUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/URLUtils.java
+END
+PropertyLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/PropertyLoader.java
+END
+LanguageDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/seco/!svn/ver/2987/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/LanguageDetector.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/DateUtils.java
+END

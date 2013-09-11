@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/seco/!svn/ver/2989/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/twitter
+END
+TwitterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/twitter/TwitterException.java
+END
+TwitterJsonMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/twitter/TwitterJsonMapper.java
+END
+Twitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/twitter/Twitter.java
+END
+TwitterUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/seco/!svn/ver/2989/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/twitter/TwitterUtils.java
+END
+TwitterJsonMappingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/utils/twitter/TwitterJsonMappingException.java
+END

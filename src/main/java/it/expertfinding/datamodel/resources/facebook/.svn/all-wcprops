@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/seco/!svn/ver/3133/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook
+END
+FacebookDataList.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookDataList.java
+END
+FacebookObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookObject.java
+END
+FacebookLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookLocation.java
+END
+FacebookNamedObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookNamedObject.java
+END
+FacebookTypedObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookTypedObject.java
+END
+FacebookPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/seco/!svn/ver/3111/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookPage.java
+END
+FacebookMessageTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookMessageTag.java
+END
+FacebookGroupHighlight.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookGroupHighlight.java
+END
+FacebookPlace.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookPlace.java
+END
+FacebookComments.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/2974/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookComments.java
+END
+FacebookPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/seco/!svn/ver/3071/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookPost.java
+END
+FacebookResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/seco/!svn/ver/3133/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookResource.java
+END
+FacebookCategorizedObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookCategorizedObject.java
+END
+FacebookGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/seco/!svn/ver/3111/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookGroup.java
+END
+FacebookComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookComment.java
+END
+FacebookApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookApplication.java
+END
+FacebookPageHighlight.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/seco/!svn/ver/2976/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookPageHighlight.java
+END
+FacebookCheckin.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/seco/!svn/ver/3005/seco-crowd/trunk/social-search/src/main/java/it/expertfinding/datamodel/resources/facebook/FacebookCheckin.java
+END
